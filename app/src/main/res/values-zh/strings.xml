@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carTitle">Car DB</string>
+    //CarDB Strings
+    <string name="appInfo">CarDB by Jia Liu Ver.M3</string>
+    <string name="carMakeText">生产商</string>
+    <string name="carSearchButtonText">搜索</string>
+    <string name="carDeetText">详细讯息</string>
+    <string name="carSaveText">保存</string>
+    <string name="carDelText">删除</string>
+    <string name="carBuyText">购买</string>
+    <string name="carListModelIDText">ModelID</string>
+    <string name="carViewDBText">查看保存</string>
+    <string name="carActivityText">这是汽车页面</string>
+    <string name="openButtonText">打开</string>
+    <string name="closeButtonText">关闭</string>
+    <string name="carSearchingText">正在搜素</string>
+    <string name="noModelText">没有选择模型</string>
+    <string name="selectModelText">请先选择模型</string>
+    <string name="carHelpText">帮助</string>
+    <string name="carHelpDeet1">输入制造商名称然后按\"搜索\", 该制造商的所有模型会在下方显示.
+        点击模型号可以了解更多. 按\"查看保存\"可以显示之前保存的模型.</string>
+    <string name="carHelpDeet2"> 在保存或者删除模型以后再次按\"查看保存\"查看更新以后的列表.</string>
+    <string name="carAuthor">刘嘉</string>
+    <string name="carVersion">1.0</string>
+</resources>

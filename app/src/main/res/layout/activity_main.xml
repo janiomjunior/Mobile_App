@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16sp">
+
+    <RelativeLayout
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/trivia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100sp"
+            android:src="@drawable/trivia" />
+
+        <TextView
+            android:id="@+id/triviaTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100sp"
+            android:layout_below="@+id/trivia"
+            android:text="@string/triviaTitle" />
+
+        <ImageView
+            android:id="@+id/song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/trivia"
+            android:layout_marginStart="50sp"
+            android:src="@drawable/song" />
+
+        <TextView
+            android:id="@+id/songTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/trivia"
+            android:layout_marginStart="50sp"
+            android:layout_below="@+id/song"
+            android:text="@string/songTitle"
+            />
+
+        <ImageView
+            android:id="@+id/car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="50sp"
+            android:layout_below="@+id/triviaTitle"
+            android:src="@drawable/car" />
+
+        <TextView
+            android:id="@+id/carTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100sp"
+            android:layout_below="@+id/car"
+            android:text="@string/carTitle"
+            />
+        <ImageView
+            android:id="@+id/soccer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/trivia"
+            android:layout_below="@+id/songTitle"
+            android:layout_marginTop="50sp"
+            android:layout_marginStart="50sp"
+            android:src="@drawable/soccer" />
+        <TextView
+            android:id="@+id/soccerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/trivia"
+            android:layout_marginStart="50sp"
+            android:layout_below="@+id/soccer"
+            android:text="@string/soccerTitle"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/createdBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/createdBy"
+        android:textSize="20sp"
+        android:layout_above="@+id/author1" />
+    <TextView
+        android:id="@+id/author1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/author1"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_above="@+id/author2" />
+    <TextView
+        android:id="@+id/author2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/author2"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_above="@+id/author3" />
+    <TextView
+        android:id="@+id/author3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/author3"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_above="@+id/author4" />
+    <TextView
+        android:id="@+id/author4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/author4"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_above="@+id/since" />
+
+    <TextView
+        android:id="@+id/since"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/since"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

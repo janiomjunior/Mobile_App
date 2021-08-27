@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">CST2335 Final</string>
+    <string name="triviaTitle">Trivia</string>
+    <string name="songTitle">Songster</string>
+    <string name="carTitle">Car DB</string>
+    <string name="soccerTitle">Soccer</string>
+    <string name="createdBy">Created by: </string>
+    <string name="author1">Danny Pham-Duong 040991572 </string>
+    <string name="author2">Marcelo Monterio 040989792 </string>
+    <string name="author3">Janio Mendonca Junior 040990044</string>
+    <string name="author4">Jia Liu 040992662 </string>
+    <string name="since">Since 2021W</string>
+
+    //Trivia Strings
+    <string name="welcomeToTrivia">Welcome to Trivia</string>
+    <string name="instructions">Before we start the game, let\'s quickly choose how you would like to play!</string>
+    <string name="chooseDifficulty">Choose difficulty level:</string>
+    <string name="chooseCategory">Select category:</string>
+    <string name="chooseType">Choose type of questions:</string>
+    <string name="booleanChoice">True or False</string>
+    <string name="multipleChoice">Multiple Choice</string>
+    <string name="anyChoice">Any type</string>
+    <string name="quantityOfQuestions">Quantity of questions:</string>
+    <string name="start">Start Game</string>
+    <string name="choiceFalse">False</string>
+    <string name="choiceTrue">True</string>
+    <string name="enterQuantity">Default: 10</string>
+    <string name="any">ANY</string>
+    <string name="easy">EASY</string>
+    <string name="medium">MEDIUM</string>
+    <string name="hard">HARD</string>
+    <string name="triviaTitleQuiz">Trivia Quiz</string>
+    <string name="correct">Correct</string>
+    <string name="correctQuantity">00</string>
+    <string name="wrong">Wrong</string>
+    <string name="wrongQuantity">00</string>
+    <string name="sampleQuestion">This is a sample question to fill with some information?</string>
+    <string name="previous">Previus</string>
+    <string name="currentQuestionNumber">00</string>
+    <string name="triviaLogo">Trivia logo</string>
+    <string name="questionsQuantity">00</string>
+    <string name="next">Next</string>
+    <string name="answer">Answer 1</string>
+    <string name="answer1">Answer 1</string>
+    <string name="answer2">Answer 2</string>
+    <string name="answer3">Answer 3</string>
+    <string name="answer4">Answer 4</string>
+    <string name="triviaQuestionProgress">00/10</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playerName">Please enter your nickname</string>
+    <string name="selectPreferences">Select your prefences</string>
+    <string name="nextToPreferences">Next</string>
+    <string name="about">About</string>
+    <string name="projectHome">Home</string>
+    <string name="triviaSubmitQuestion">Submit</string>
+    <string name="triviaTopPlayers">Top 5 Players</string>
+    <string name="triviaTopPlayerName">Marcelo</string>
+    <string name="triviaTopPlayerScore">100</string>
+    <string name="triviaYourName">Your Name</string>
+    <string name="triviaListName">NAME</string>
+    <string name="triviaListScore">SCORE</string>
+    <string name="help">Help</string>
+    <string name="triviaDrawerClose">close</string>
+    <string name="triviaDrawerOpen">open</string>
+    <string name="triviaActivityTitle">Trivia Activity</string>
+    <string name="triviaActivityAuthor">Author: Marcelo Monteiro da Silva</string>
+    <string name="triviaActivityVersion">Version: 4.0</string>
+    <string name="triviaUnansweredQuantity">00</string>
+    <string name="triviaUnanswered">Unanswered</string>
+
+
+    //Songsterr Strings
+    <string name="welcomeToSongsterr">Welcome to Songsterr</string>
+    <string name="EnterArtistOrBand">Enter Artist or Band Name </string>
+    <string name="toast_EditText_null">Enter with the artist or band name</string>
+    <string name="loadingTheList">Loading the list</string>
+    <string name="TheListOfSongs"> Select one song...</string>
+    <string name="buttonSearchSong">SEARCH</string>
+    <string name="buttonClear">CLEAR</string>
+    <string name="toast_clearButton">List cleared</string>
+    <string name="saveFavorites">SAVE TO FAVOURITES</string>
+    <string name="favorites">FAVOURITES</string>
+    <string name="listOfFavourites">List of Favourites</string>
+    <string name="titleSong">The song title is : </string>
+    <string name="songId">The song ID is: </string>
+    <string name="artistId">The artist ID is: </string>
+    <string name="back">BACK</string>
+    <string name="artistName">The Artist: </string>
+    <string name="songInfo">The song Information....</string>
+    <string name="toast_Id_inserted"> The id was inserted </string>
+    <string name="title_activity_song_fav">Favorite Songs</string>
+    <string name="song_saved">Song Saved</string>
+    <string name="removeFavorites"> Remove from database </string>
+    <string name="removed_songToast">Song Removed</string>
+    <string name="song_open"> open </string>
+    <string name="song_close"> close </string>
+    <string name="songsterr"> Songsterr </string>
+    <string name="author"> Janio Mendonca </string>
+    <string name="version"> Version 1.0 </string>
+    <string name="songDescription" > This App allows you to make search on your band or artist </string>
+    <string name="songDescription1"> You can play your song found and save in favourites </string>
+    <string name="songDescription2"> You can see many information about artist or band </string>
+    <string name="help_song">Help</string>
+    <string name="home">Home</string>
+    <string name="song">Songsterr</string>
+
+
+
+    //CarDB Strings
+    <string name="appInfo">CarDB by Jia Liu Ver.M3</string>
+    <string name="carMakeText">Manufacturer</string>
+    <string name="carSearchButtonText">Search</string>
+    <string name="carDeetText">Details</string>
+    <string name="carSaveText">Save</string>
+    <string name="carDelText">Delete</string>
+    <string name="carBuyText">Buy</string>
+    <string name="carListModelIDText">ModelID</string>
+    <string name="carViewDBText">View saved</string>
+    <string name="carActivityText">This is car activity</string>
+    <string name="openButtonText">Open</string>
+    <string name="closeButtonText">Close</string>
+    <string name="carSearchingText">Searching...</string>
+    <string name="noModelText">No model selected</string>
+    <string name="selectModelText">Please select a model number first</string>
+    <string name="carHelpText">Help</string>
+    <string name="carHelpDeet1">Enter the name of a manufacturer and press \"Search\", a list of model numbers will appear.
+        Click on the model numbers to find out more. You can also press \"View Saved\" to see what has been already saved.</string>
+    <string name="carHelpDeet2"> press \"Saved\" again after saving or deleting a car from the saved list to see the list update.</string>
+    <string name="carAuthor">Jia Liu</string>
+    <string name="carVersion">1.0</string>
+
+
+
+
+
+    <!--Soccer Articles Strings-->
+    <string name="hide">HIDE</string>
+    <string name="soccerArticle">Soccer Articles</string>
+    <string name="fetchArticles">Fetching recent articles...</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="carDrawerTitle">Car</string>
+    <string name="songDrawerTitle">Song</string>
+    <string name="triviaDrawerTitle">Trivia</string>
+    <string name="soccerHome">Going back to Main Page...</string>
+    <string name="soccerAbout">About</string>
+    <string name="helpMe">This application displays a feed of soccer articles in a list. Click on
+    an article that interests you in the list and you will be redirected. You can then click
+    on the button to go to the website.</string>
+    <string name="EnterNameSoccer">Enter Name</string>
+    <string name="EnterPassSoccer">Enter Password</string>
+    <string name="HintTextSoccer">Type Here</string>
+    <string name="loginSoccer">Login</string>
+    <string name="welcomeSnackBar">Welcome To Soccer Main Activity</string>
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="clickedTrivia">You clicked on Trivia</string>
+    <string name="clickedCar">You clicked on Car</string>
+    <string name="clickedSoccer">You clicked on Soccer</string>
+    <string name="clickedSong">You clicked on Song</string>
+    <string name="clickedAbout">You clicked on About</string>
+    <string name="clickedHome">You clicked on Home</string>
+    <string name="clickedHelp">You clicked on Help</string>
+    <string name="helpInstructions">Enter with your band or Artist and hit SEARCH to see the songs</string>
+
+
+
+</resources>

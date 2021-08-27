@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Soccer Article Strings
+    <string name="soccerArticle">bài báo về bóng đá</string>
+    <string name="fetchArticles">tìm nạp các bài báo gần đây...</string>
+    <string name="open">mở</string>
+    <string name="close">đóng</string>
+    <string name="carDrawerTitle">xe hơi</string>
+    <string name="songDrawerTitle">bài hát</string>
+    <string name="triviaDrawerTitle">đố vui</string>
+    <string name="soccerHome">quay lại trang chính...</string>
+    <string name="soccerAbout">xung quanh</string>
+    <string name="helpMe">Ứng dụng này hiển thị một nguồn cấp dữ liệu
+        các bài báo bóng đá trong một danh sách. Nhấp vào một bài báo mà bạn quan tâm trong danh sách
+        và bạn sẽ được chuyển hướng. Sau đó, bạn có thể nhấp vào nút để truy cập trang web.</string>
+    <string name="EnterNameSoccer">Bam ten</string>
+    <string name="EnterPassSoccer">Bam password</string>
+    <string name="HintTextSoccer">Gi o day</string>
+    <string name="loginSoccer">Vo Len</string>
+    <string name="welcomeSnackBar">Chào mừng đến với Hoạt động chính của Bóng đá</string>
+</resources>

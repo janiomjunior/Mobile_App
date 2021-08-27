@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/goToSong"
+        android:title="@string/songsterr"
+        android:icon="@drawable/song"
+        android:orderInCategory="75"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/goToCar"
+        android:title="@string/carTitle"
+        android:icon="@drawable/car"
+        android:orderInCategory="75"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/goToSoccer"
+        android:title="@string/soccerTitle"
+        android:icon="@drawable/soccer"
+        android:orderInCategory="500"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/goToTrivia"
+        android:title="@string/triviaTitle"
+        android:icon="@drawable/trivia"
+        android:orderInCategory="500"
+        app:showAsAction="always"/>
+
+</menu>

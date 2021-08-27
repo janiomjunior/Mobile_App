@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/carDrawerHomeIcon"
+        android:icon="@drawable/home"
+        android:title="Home"
+        android:orderInCategory="55"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/carDrawerTrivia"
+        android:icon="@drawable/ic_trivia_soccer"
+        android:orderInCategory="75"
+        app:showAsAction="never"
+        android:title="@string/triviaTitle"/>
+
+    <item android:id="@+id/carDrawerSoccer"
+        android:icon="@drawable/trivia_soccer"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/soccerTitle"/>
+
+    <item android:id="@+id/carDrawerSong"
+        android:icon="@drawable/trivia_song"
+        android:orderInCategory="150"
+        app:showAsAction="never"
+        android:title="@string/songTitle"/>
+
+</menu>

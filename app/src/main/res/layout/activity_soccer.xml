@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    tools:context=".SoccerActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Makes it compatible so the toolbar can be shown-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/soccerToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--openDrawer: makes the navigation drawer visible on the preview screen in Android Studio essentially mimicking the user swiping the drawer onto the screen-->
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/soccer_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/alphonso"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:id="@+id/soccerArticles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/soccerArticle"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_below="@id/imageView"/>
+
+            <Button
+                android:id="@+id/articleFavorites"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Go To Favourites" />
+
+            <ListView
+                android:id="@+id/lvRss"
+                android:layout_below="@id/soccerArticles"
+                android:layout_above="@id/articleFavorites"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ProgressBar
+                android:id="@+id/soccerProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/soccerArticles"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+
+        <!--This is what pops out from the side-->
+        <!--Retrieves the items from the drawer menu to be executed-->
+        <!--menu - to inflate populate items from the drawer menu-->
+        <!--https://stackoverflow.com/questions/44343630/layout-gravity-start-doesnt-work-on-navigationview-->
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:menu="@menu/soccer_drawer_menu"/>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>

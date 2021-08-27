@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuHomeIcon"
+        android:icon="@drawable/home"
+        android:title="Icon"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menuTrivia"
+        android:title="@string/triviaTitle"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menuSongster"
+        android:title="@string/songTitle"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menuCarDB"
+        android:title="@string/carTitle"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menuSoccer"
+        android:title="@string/soccerTitle"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menuHelp"
+        android:title="@string/help"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menuAbout"
+        android:title="@string/about"
+        app:showAsAction="never"/>
+</menu>

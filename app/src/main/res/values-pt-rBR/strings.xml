@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">CST2335 Final</string>
+    <string name="triviaTitle">Trivia</string>
+    <string name="songTitle">Songster</string>
+    <string name="carTitle">Car DB</string>
+    <string name="soccerTitle">Soccer</string>
+    <string name="createdBy">"Criado por: "</string>
+    <string name="author1">Danny Pham-Duong 040991572 </string>
+    <string name="author2">Marcelo Monterio 040989792 </string>
+    <string name="author3">Janio Mendonca Junior 040990044</string>
+    <string name="author4">Jia Liu 040992662 </string>
+    <string name="since">Desde 2021W</string>
+
+    //Trivia Strings
+    <string name="welcomeToTrivia">Bem vindo ao Trivia</string>
+    <string name="instructions">Antes de iniciar o jogo, vamo escolher rapidamente como você quer jogar!    Ou você pode apenas clicar no botão iniciar jogo que escolheremos as questões de forma aleatório para você</string>
+    <string name="chooseDifficulty">Escolha o nível de dificuldade:</string>
+    <string name="chooseCategory">Selecione a categoria:</string>
+    <string name="chooseType">Escolha o tipo de questão:</string>
+    <string name="booleanChoice">Verdadeiro/Falso</string>
+    <string name="multipleChoice">Multipla escolha</string>
+    <string name="anyChoice">Qualquer tipo</string>
+    <string name="quantityOfQuestions">Quantidade de questões:</string>
+    <string name="start">Iniciar Jogo</string>
+    <string name="choiceFalse">Falso</string>
+    <string name="choiceTrue">Verdadeiro</string>
+    <string name="enterQuantity">Padrão: 10</string>
+    <string name="any">QQ</string>
+    <string name="medium">MÉDIO</string>
+    <string name="hard">DIFÍCIL</string>
+    <string name="triviaTitleQuiz">Trivia Quiz</string>
+    <string name="correct">CorrectO</string>
+    <string name="correctQuantity">00</string>
+    <string name="wrong">Errado</string>
+    <string name="wrongQuantity">00</string>
+    <string name="sampleQuestion">Esta é uma questão de exemplo com algumas informações?</string>
+    <string name="previous">Anterior</string>
+    <string name="triviaQuestionProgress">00/10</string>
+    <string name="triviaLogo">Trivia logomarca</string>
+    <string name="questionsQuantity">00</string>
+    <string name="next">Próximo</string>
+    <string name="answer">Resposta 1</string>
+    <string name="answer1">Resposta 1</string>
+    <string name="answer2">Resposta 2</string>
+    <string name="answer3">Resposta 3</string>
+    <string name="answer4">Resposta 4</string>
+    <string name="playerName">Por favor digite seu nome</string>
+    <string name="selectPreferences">Selecione suas preferencias</string>
+    <string name="nextToPreferences">Próximo</string>
+    <string name="about">Sobre</string>
+    <string name="projectHome">Principal</string>
+    <string name="triviaSubmitQuestion">Submeter</string>
+    <string name="triviaTopPlayers">5 melhores jogadores</string>
+    <string name="triviaTopPlayerName">Marcelo</string>
+    <string name="triviaTopPlayerScore">100</string>
+    <string name="easy">FÁCIL</string>
+    <string name="triviaYourName">Seu Nome</string>
+    <string name="triviaListName">NOME</string>
+    <string name="triviaListScore">SCORE</string>
+    <string name="help">Ajuda</string>
+
+    //Songsterr Strings
+    <string name="welcomeToSongsterr">Bem vindo ao Songsterr</string>
+    <string name="EnterArtistOrBand">Digite o nome do artista ou banda</string>
+    <string name="toast_EditText_null">Digite o nome do artista ou banda</string>
+    <string name="loadingTheList">Loading the list</string>
+    <string name="TheListOfSongs">Selecione uma música...</string>
+    <string name="titleSong">"O nome da música é : "</string>
+    <string name="songId">"O ID da música é: "</string>
+    <string name="artistId">"O ID do artiste é: "</string>
+    <string name="hello_blank_fragment">Olá fragmento vazio</string>
+    <string name="hide">OCULTAR</string>
+    <string name="artistName">"O Artist: "</string>
+    <string name="songInfo">A informação da música....</string>
+
+    //CarDB Strings
+    <string name="carMakeText">Fabricante</string>
+    <string name="carSearchButtonText">Buscar</string>
+    <string name="carDeetText">Detalhes</string>
+    <string name="carSaveText">Salvar</string>
+    <string name="carBuyText">Comprar</string>
+    <string name="carListModelIDText">ModeloID</string>
+    <string name="carViewDBText">Ver salvo</string>
+
+
+</resources>

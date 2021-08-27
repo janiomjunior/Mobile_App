@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    tools:context=".TriviaMain"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/triviaToolbar"/>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16sp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:background="@android:color/white"
+                app:cardCornerRadius="8sp"
+                app:cardElevation="5sp"
+                android:layout_marginBottom="5sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16sp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/selectPreferences"
+                        android:layout_marginBottom="30sp"
+                        android:textSize="23sp"
+                        android:textStyle="bold"
+                        android:textColor="#673AB7"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginBottom="30sp"
+                        android:text="@string/instructions"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#673AB7"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <ProgressBar
+                android:id="@+id/triviaWelcomeProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quantityOfQuestions"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#673AB7"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/enterQuantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enterQuantity"
+                    android:textColorHint="#9E8BA8"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="@string/chooseDifficulty"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#673AB7"/>
+
+            <LinearLayout
+                android:id="@+id/difficultyLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chooseDifficulty"
+                android:layout_marginTop="10sp"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/any"
+                    android:layout_width="75sp"
+                    android:layout_height="75sp"
+                    android:src="@drawable/any"
+                    android:background="?android:selectableItemBackground"
+                    android:contentDescription="@string/any" />
+                <ImageButton
+                    android:id="@+id/easy"
+                    android:layout_width="75sp"
+                    android:layout_height="75sp"
+                    android:src="@drawable/easy"
+                    android:background="?android:selectableItemBackground"
+                    android:contentDescription="@string/easy" />
+                <ImageButton
+                    android:id="@+id/medium"
+                    android:layout_width="75sp"
+                    android:layout_height="75sp"
+                    android:src="@drawable/medium"
+                    android:background="?android:selectableItemBackground"
+                    android:contentDescription="@string/medium" />
+                <ImageButton
+                    android:id="@+id/hard"
+                    android:layout_width="75sp"
+                    android:layout_height="75sp"
+                    android:src="@drawable/hard"
+                    android:background="?android:selectableItemBackground"
+                    android:contentDescription="@string/hard" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="@string/chooseCategory"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#673AB7"/>
+            <Spinner
+                android:id="@+id/categorySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="@string/chooseType"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#673AB7"/>
+
+            <RadioGroup
+                android:id="@+id/radioChoiceGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/anyChoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/anyChoice"/>
+                <RadioButton
+                    android:id="@+id/multipleChoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/multipleChoice" />
+                <RadioButton
+                    android:id="@+id/booleanChoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/booleanChoice"/>
+            </RadioGroup>
+            <Button
+                android:id="@+id/start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="@string/start"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!-- THIS IS WHAT IS WHAT POPS OUT FROM THE SIDE:-->
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:menu="@menu/trivia_menu_drawer"
+            android:id="@+id/nav_view"
+            app:headerLayout="@layout/trivia_top_header"
+            app:itemBackground="@color/white" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>

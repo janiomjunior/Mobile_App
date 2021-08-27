@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SongDetailFragment">
+
+    <RelativeLayout
+        android:id="@+id/frame_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/fragment_song_info"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/songInfo"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/fragment_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID= "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@id/fragment_song_info"/>
+
+        <TextView
+            android:id="@+id/fragment_artistName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_id"
+            android:text="@string/artistName"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/fragment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_artistName"
+            android:text="@string/titleSong"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+
+        <ImageView
+            android:id="@+id/iconSongid"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/fragment_title"
+            android:src="@drawable/song">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/fragment_songId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_title"
+            android:layout_toRightOf="@id/iconSongid"
+            android:text="@string/songId"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+        <ImageView
+            android:id="@+id/iconArtistid"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/fragment_songId"
+            android:src="@drawable/song_artist">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/fragment_artistId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_songId"
+            android:layout_toRightOf="@id/iconSongid"
+            android:text="@string/artistId"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/save_favorites"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            android:layout_below="@id/fragment_artistId"
+            android:layout_alignParentLeft="true"
+            android:text="@string/saveFavorites"/>
+
+        <Button
+            android:id="@+id/remove_favorites"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:visibility="invisible"
+            android:layout_below="@id/save_favorites"
+            android:layout_alignParentLeft="true"
+            android:text="@string/removeFavorites"/>
+
+        <Button
+            android:id="@+id/fragment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true"
+            android:text="@string/back" />
+
+    </RelativeLayout>
+
+</FrameLayout>
